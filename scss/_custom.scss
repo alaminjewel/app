@@ -1,0 +1,31 @@
+
+
+$headings-margin-bottom:      0;
+$paragraph-margin-bottom:     0;
+
+
+//button css
+$btn-focus-width:             none;
+$btn-focus-box-shadow:        none;
+$btn-active-box-shadow:       none;
+
+
+//header custom css
+$btn-close-focus-shadow:            none;
+$navbar-toggler-focus-width:        none;
+
+
+// Accordion custom css
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $primary;
+$accordion-button-bg:                     #f5f7fa;
+$accordion-button-focus-border-color:     none;
+$accordion-button-focus-box-shadow:       none;
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
+
+
+
+//import bootstrap
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
